@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sukrit Srivastava Digital Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Open Graph -->
+        <meta property="og:title" content="Sukrit Srivastava - Product Portfolio" />
+        <meta property="og:description" content="Product-minded technologist blending empathy, strategy, and innovation to build user-first solutions." />
+        <meta property="og:image" content="https://mactoeez.github.io/r2/" />
+        <meta property="og:url" content="https://mactoeez.github.io/r2/" />
+        <meta property="og:type" content="website" />
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Sukrit Srivastava - Product Portfolio" />
+        <meta name="twitter:description" content="Explore my projects, certifications, and journey in product & technology." />
+        <meta name="twitter:image" content="https://mactoeez.github.io/r2/" />
 </head>
 <body>
     <!-- Navbar -->
@@ -72,26 +84,33 @@
 
     <!-- Education -->
     <h3>Education</h3>
-    <table class="dark-table dark-table-card">
-        <thead>
-            <tr>
-                <th>Institute</th>
-                <th>Degree</th>
-                <th>Location</th>
-                <th>Duration</th>
-                <th>Graduating GPA</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td data-label="Institute">Manipal University Jaipur</td>
-                <td data-label="Degree">B.Tech in Information Technology</td>
-                <td data-label="Location">Jaipur, Rajasthan, India</td>
-                <td data-label="Duration">August 2020 – October 2024</td>
-                <td data-label="Graduating GPA">8.11/10</td>
-            </tr>
-        </tbody>
-    </table>
+        <table class="dark-table">
+            <thead>
+                <tr>
+                    <th>Institute</th>
+                    <th>Degree</th>
+                    <th>Location</th>
+                    <th>Duration</th>
+                    <th>Graduating GPA</th>
+                    <th>Transcript</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="Institute">Manipal University Jaipur</td>
+                    <td data-label="Degree">B.Tech in Information Technology</td>
+                    <td data-label="Location">Jaipur, Rajasthan, India</td>
+                    <td data-label="Duration">August 2024 – October 2025</td>
+                    <td data-label="Graduating GPA">8.11/10</td>
+                    <td data-label="Transcript" class="pdf-preview-cell">
+                        <a href="https://drive.google.com/file/d/187GfKmKFZs1tGoSoHC2XhaTITOkl_9hv/view?usp=sharing" target="_blank" class="pdf-link">Transcript</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="floating-pdf-preview" style="display:none;">
+            <iframe id="preview-iframe" src="" width="300" height="200"></iframe>
+        </div>
 
     <!-- Experience -->
     <h3>Experience</h3>
@@ -174,171 +193,171 @@
     </table>
 
     <!-- Volunteering & NGO -->
-    <h3>Volunteering & NGO</h3>
-    <table class="dark-table dark-table-card">
-        <thead>
-            <tr>
-                <th>Role</th>
-                <th>Organization</th>
-                <th>Location</th>
-                <th>Duration</th>
-                <th>Key Contributions</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td data-label="Role">Executive Committee Member</td>
-                <td data-label="Organization">Manipal University Jaipur</td>
-                <td data-label="Location">Jaipur, Rajasthan, India</td>
-                <td data-label="Duration">Dec 2023 – Mar 2024</td>
-                <td data-label="Key Contributions" class="td-list">
-                    <ul>
-                        <li>I volunteered for Techideate, the yearly technical festival at Manipal University Jaipur. I served as a member of the executive committee and led the Sponsorship team, spearheading initiatives to secure sponsorships for both major and minor events.</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td data-label="Role">Executive Committee Member</td>
-                <td data-label="Organization">Manipal University Jaipur</td>
-                <td data-label="Location">Jaipur, Rajasthan, India</td>
-                <td data-label="Duration">Dec 2023 – Mar 2024</td>
-                <td data-label="Key Contributions" class="td-list">
-                    <ul>
-                        <li>I volunteered for Techideate, the yearly technical festival at Manipal University Jaipur. I served as a member of the executive committee and led the Sponsorship team, spearheading initiatives to secure sponsorships for both major and minor events.</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td data-label="Role">Executive Committee Member</td>
-                <td data-label="Organization">Manipal University Jaipur</td>
-                <td data-label="Location">Jaipur, Rajasthan, India</td>
-                <td data-label="Duration">Dec 2023 – Mar 2024</td>
-                <td data-label="Key Contributions" class="td-list">
-                    <ul>
-                        <li>I volunteered for Techideate, the yearly technical festival at Manipal University Jaipur. I served as a member of the executive committee and led the Sponsorship team, spearheading initiatives to secure sponsorships for both major and minor events.</li>
-                    </ul>
-                </td>
-            </tr>
-            <!-- Add other volunteering rows similarly -->
-        </tbody>
-    </table>
-</section>
+        <h3>Volunteering & NGO</h3>
+        <table class="dark-table dark-table-card">
+            <thead>
+                <tr>
+                    <th>Role</th>
+                    <th>Organization</th>
+                    <th>Location</th>
+                    <th>Duration</th>
+                    <th>Key Contributions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="Role">Executive Committee Member</td>
+                    <td data-label="Organization">Manipal University Jaipur</td>
+                    <td data-label="Location">Jaipur, Rajasthan, India</td>
+                    <td data-label="Duration">Dec 2023 – Mar 2024</td>
+                    <td data-label="Key Contributions" class="td-list">
+                        <ul>
+                            <li>I volunteered for Techideate, the yearly technical festival at Manipal University Jaipur. I served as a member of the executive committee and led the Sponsorship team, spearheading initiatives to secure sponsorships for both major and minor events.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td data-label="Role">Executive Committee Member</td>
+                    <td data-label="Organization">Manipal University Jaipur</td>
+                    <td data-label="Location">Jaipur, Rajasthan, India</td>
+                    <td data-label="Duration">Dec 2023 – Mar 2024</td>
+                    <td data-label="Key Contributions" class="td-list">
+                        <ul>
+                            <li>I volunteered for Techideate, the yearly technical festival at Manipal University Jaipur. I served as a member of the executive committee and led the Sponsorship team, spearheading initiatives to secure sponsorships for both major and minor events.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td data-label="Role">Executive Committee Member</td>
+                    <td data-label="Organization">Manipal University Jaipur</td>
+                    <td data-label="Location">Jaipur, Rajasthan, India</td>
+                    <td data-label="Duration">Dec 2023 – Mar 2024</td>
+                    <td data-label="Key Contributions" class="td-list">
+                        <ul>
+                            <li>I volunteered for Techideate, the yearly technical festival at Manipal University Jaipur. I served as a member of the executive committee and led the Sponsorship team, spearheading initiatives to secure sponsorships for both major and minor events.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
     <!-- Certification -->
     <section id="certifications">
     <h2>Certifications</h2>
              <table class="dark-table">
-        <thead>
-            <tr>
-                <th>Subject</th>
-                <th>By</th>
-                <th>View Creds</th>
-                <th>Verify Creds</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td data-label="Subject">Data-Driven Decision-Making for Agile Organizations - specialization</td>
-                <td data-label="By">Duke University</td>
-                <td data-label="View Creds" class="pdf-preview-cell">
-                    <a href="https://drive.google.com/file/d/1Vp-BFNkCivhIaRnsom1cXUG_PtbemhHr/view" target="_blank" class="pdf-link">View Certificate</a>
-                </td>
-                <td data-label="Verify Creds" class="pdf-preview-cell">
-                    <a href="https://www.coursera.org/account/accomplishments/specialization/FU1Z3U70FEWJ" target="_blank" class="pdf-link">Coursera</a>
-                </td>
-            </tr>
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>By</th>
+                        <th>View Creds</th>
+                        <th>Verify Creds</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Subject">Data-Driven Decision-Making for Agile Organizations - specialization</td>
+                        <td data-label="By">Duke University</td>
+                        <td data-label="View Creds" class="pdf-preview-cell">
+                            <a href="https://drive.google.com/file/d/1Vp-BFNkCivhIaRnsom1cXUG_PtbemhHr/view" target="_blank" class="pdf-link">View Certificate</a>
+                        </td>
+                        <td data-label="Verify Creds" class="pdf-preview-cell">
+                            <a href="https://www.coursera.org/account/accomplishments/specialization/FU1Z3U70FEWJ" target="_blank" class="pdf-link">Coursera</a>
+                        </td>
+                    </tr>
 
-            <tr>
-                <td data-label="Subject">Agile Dashboards for Data-Driven Decision-Making</td>
-                <td data-label="By">Duke University</td>
-                <td data-label="View Creds" class="pdf-preview-cell">
-                    <a href="https://drive.google.com/file/d/1L7MlomeKbTqrDaHc9FNjx32e9uyFrtgP/view?usp=sharing" target="_blank" class="pdf-link">View Certificate</a>
-                </td>
-                <td data-label="Verify Creds" class="pdf-preview-cell">
-                    <a href="https://www.coursera.org/account/accomplishments/verify/910KLH46LRM2" target="_blank" class="pdf-link">Coursera</a>
-                </td>
-            </tr>
+                    <tr>
+                        <td data-label="Subject">Agile Dashboards for Data-Driven Decision-Making</td>
+                        <td data-label="By">Duke University</td>
+                        <td data-label="View Creds" class="pdf-preview-cell">
+                            <a href="https://drive.google.com/file/d/1L7MlomeKbTqrDaHc9FNjx32e9uyFrtgP/view?usp=sharing" target="_blank" class="pdf-link">View Certificate</a>
+                        </td>
+                        <td data-label="Verify Creds" class="pdf-preview-cell">
+                            <a href="https://www.coursera.org/account/accomplishments/verify/910KLH46LRM2" target="_blank" class="pdf-link">Coursera</a>
+                        </td>
+                    </tr>
 
-            <tr>
-                <td data-label="Subject">Agile Decision-Making Frameworks</td>
-                <td data-label="By">Duke University</td>
-                <td data-label="View Creds" class="pdf-preview-cell">
-                    <a href="https://drive.google.com/file/d/1i1dQSk38tXIJrbkl52q3B8MsnExmqt2e/view?usp=sharing" target="_blank" class="pdf-link">View Certificate</a>
-                </td>
-                <td data-label="Verify Creds" class="pdf-preview-cell">
-                    <a href="https://www.coursera.org/account/accomplishments/verify/YEOHDL0MUCMA" target="_blank" class="pdf-link">Coursera</a>
-                </td>
-            </tr>
+                    <tr>
+                        <td data-label="Subject">Agile Decision-Making Frameworks</td>
+                        <td data-label="By">Duke University</td>
+                        <td data-label="View Creds" class="pdf-preview-cell">
+                            <a href="https://drive.google.com/file/d/1i1dQSk38tXIJrbkl52q3B8MsnExmqt2e/view?usp=sharing" target="_blank" class="pdf-link">View Certificate</a>
+                        </td>
+                        <td data-label="Verify Creds" class="pdf-preview-cell">
+                            <a href="https://www.coursera.org/account/accomplishments/verify/YEOHDL0MUCMA" target="_blank" class="pdf-link">Coursera</a>
+                        </td>
+                    </tr>
 
-            <tr>
-                <td data-label="Subject">Data Science for Agile Decision-Making</td>
-                <td data-label="By">Duke University</td>
-                <td data-label="View Creds" class="pdf-preview-cell">
-                    <a href="https://drive.google.com/file/d/1HgCvwQYISGBvb5IYGoE4K1EIkZMi7nH7/view?usp=sharing" target="_blank" class="pdf-link">View Certificate</a>
-                </td>
-                <td data-label="Verify Creds" class="pdf-preview-cell">
-                    <a href="https://www.coursera.org/account/accomplishments/verify/9FPZC9KIGJLY" target="_blank" class="pdf-link">Coursera</a>
-                </td>
-            </tr>
+                    <tr>
+                        <td data-label="Subject">Data Science for Agile Decision-Making</td>
+                        <td data-label="By">Duke University</td>
+                        <td data-label="View Creds" class="pdf-preview-cell">
+                            <a href="https://drive.google.com/file/d/1HgCvwQYISGBvb5IYGoE4K1EIkZMi7nH7/view?usp=sharing" target="_blank" class="pdf-link">View Certificate</a>
+                        </td>
+                        <td data-label="Verify Creds" class="pdf-preview-cell">
+                            <a href="https://www.coursera.org/account/accomplishments/verify/9FPZC9KIGJLY" target="_blank" class="pdf-link">Coursera</a>
+                        </td>
+                    </tr>
 
-            <tr>
-                <td data-label="Subject">Product Management Basics</td>
-                <td data-label="By">Pendo.io</td>
-                <td data-label="View Creds" class="pdf-preview-cell">
-                    <a href="https://drive.google.com/file/d/1iMvy9MllUOzV_esosgOYhHl6A266eOZN/view?usp=sharing" target="_blank" class="pdf-link">View Certificate</a>
-                </td>
-                <td data-label="Verify Creds" class="pdf-preview-cell">
-                    <a href="https://www.credly.com/badges/eacc0b21-26ee-4ebf-a29f-2716752c4558/public_url" target="_blank" class="pdf-link">Credly</a>
-                </td>
-            </tr>
+                    <tr>
+                        <td data-label="Subject">Product Management Basics</td>
+                        <td data-label="By">Pendo.io</td>
+                        <td data-label="View Creds" class="pdf-preview-cell">
+                            <a href="https://drive.google.com/file/d/1iMvy9MllUOzV_esosgOYhHl6A266eOZN/view?usp=sharing" target="_blank" class="pdf-link">View Certificate</a>
+                        </td>
+                        <td data-label="Verify Creds" class="pdf-preview-cell">
+                            <a href="https://www.credly.com/badges/eacc0b21-26ee-4ebf-a29f-2716752c4558/public_url" target="_blank" class="pdf-link">Credly</a>
+                        </td>
+                    </tr>
 
-            <tr>
-                <td data-label="Subject">Mckinsey Forward Program</td>
-                <td data-label="By">Mckinsey</td>
-                <td data-label="View Creds" class="pdf-preview-cell">
-                    <a href="https://drive.google.com/file/d/1XFOQ1z1ss3N5zoBxN4pMLzVqbBw2XeRd/view?usp=drive_link" target="_blank" class="pdf-link">View Certificate</a>
-                </td>
-                <td data-label="Verify Creds" class="pdf-preview-cell">
-                    <a href="https://www.credly.com/badges/cf7b301d-6801-48a4-a4ce-38d33262eaf3/public_url" target="_blank" class="pdf-link">Credly</a>
-                </td>
-            </tr>
+                    <tr>
+                        <td data-label="Subject">Mckinsey Forward Program</td>
+                        <td data-label="By">Mckinsey</td>
+                        <td data-label="View Creds" class="pdf-preview-cell">
+                            <a href="https://drive.google.com/file/d/1XFOQ1z1ss3N5zoBxN4pMLzVqbBw2XeRd/view?usp=drive_link" target="_blank" class="pdf-link">View Certificate</a>
+                        </td>
+                        <td data-label="Verify Creds" class="pdf-preview-cell">
+                            <a href="https://www.credly.com/badges/cf7b301d-6801-48a4-a4ce-38d33262eaf3/public_url" target="_blank" class="pdf-link">Credly</a>
+                        </td>
+                    </tr>
 
-            <tr>
-                <td data-label="Subject">Build Wireframes and Low-Fidelity Prototypes</td>
-                <td data-label="By">Google</td>
-                <td data-label="View Creds" class="pdf-preview-cell">
-                    <a href="https://drive.google.com/file/d/1lTQWz-rQxObIH2L513UkBH1zWOHocxo1/view?usp=sharing" target="_blank" class="pdf-link">View Certificate</a>
-                </td>
-                <td data-label="Verify Creds" class="pdf-preview-cell">
-                    <a href="https://www.coursera.org/account/accomplishments/verify/AMTU6CELFU0E" target="_blank" class="pdf-link">Coursera</a>
-                </td>
-            </tr>
+                    <tr>
+                        <td data-label="Subject">Build Wireframes and Low-Fidelity Prototypes</td>
+                        <td data-label="By">Google</td>
+                        <td data-label="View Creds" class="pdf-preview-cell">
+                            <a href="https://drive.google.com/file/d/1lTQWz-rQxObIH2L513UkBH1zWOHocxo1/view?usp=sharing" target="_blank" class="pdf-link">View Certificate</a>
+                        </td>
+                        <td data-label="Verify Creds" class="pdf-preview-cell">
+                            <a href="https://www.coursera.org/account/accomplishments/verify/AMTU6CELFU0E" target="_blank" class="pdf-link">Coursera</a>
+                        </td>
+                    </tr>
 
-            <tr>
-                <td data-label="Subject">Introduction to Back-End Development</td>
-                <td data-label="By">Meta</td>
-                <td data-label="View Creds" class="pdf-preview-cell">
-                    <a href="https://drive.google.com/file/d/1Gam1luSKO-Ra8ahIqeCfixbrHOEuJtoo/view?usp=sharing" target="_blank" class="pdf-link">View Certificate</a>
-                </td>
-                <td data-label="Verify Creds" class="pdf-preview-cell">
-                    <a href="https://www.coursera.org/account/accomplishments/verify/9MBVWFWSPQO3" target="_blank" class="pdf-link">Coursera</a>
-                </td>
-            </tr>
+                    <tr>
+                        <td data-label="Subject">Introduction to Back-End Development</td>
+                        <td data-label="By">Meta</td>
+                        <td data-label="View Creds" class="pdf-preview-cell">
+                            <a href="https://drive.google.com/file/d/1Gam1luSKO-Ra8ahIqeCfixbrHOEuJtoo/view?usp=sharing" target="_blank" class="pdf-link">View Certificate</a>
+                        </td>
+                        <td data-label="Verify Creds" class="pdf-preview-cell">
+                            <a href="https://www.coursera.org/account/accomplishments/verify/9MBVWFWSPQO3" target="_blank" class="pdf-link">Coursera</a>
+                        </td>
+                    </tr>
 
-            <tr>
-                <td data-label="Subject">Red Hat System Administration I (RH124) & II (RH134)</td>
-                <td data-label="By">Red Hat</td>
-                <td data-label="View Creds" class="pdf-preview-cell">
-                    <a href="https://drive.google.com/drive/folders/1Gk4DEmlNtI2qRHfqiAZladcszgKbj24H" target="_blank" class="pdf-link">View Certificate</a>
-                </td>
-                <td data-label="Verify Creds" class="pdf-preview-cell">
-                    <a href="https://drive.google.com/drive/folders/1Gk4DEmlNtI2qRHfqiAZladcszgKbj24H" target="_blank" class="pdf-link">Drive</a>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <div id="floating-pdf-preview" style="display:none;">
-        <iframe id="preview-iframe" src="" width="300" height="200"></iframe>
-    </div>
+                    <tr>
+                        <td data-label="Subject">Red Hat System Administration I (RH124) & II (RH134)</td>
+                        <td data-label="By">Red Hat</td>
+                        <td data-label="View Creds" class="pdf-preview-cell">
+                            <a href="https://drive.google.com/drive/folders/1Gk4DEmlNtI2qRHfqiAZladcszgKbj24H" target="_blank" class="pdf-link">View Certificate</a>
+                        </td>
+                        <td data-label="Verify Creds" class="pdf-preview-cell">
+                            <a href="https://drive.google.com/drive/folders/1Gk4DEmlNtI2qRHfqiAZladcszgKbj24H" target="_blank" class="pdf-link">Drive</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!---Reference - To add more certificates-->>
+        <div id="floating-pdf-preview" style="display:none;">
+            <iframe id="preview-iframe" src="" width="300" height="200"></iframe>
+        </div>
     </section>
     <!-- Contact -->
     <section id="contact" class="contact-section">
@@ -377,4 +396,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
